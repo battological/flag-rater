@@ -1,0 +1,30 @@
+{
+  "name": "flag-rater",
+  "version": "0.0.1",
+  "description": "Rate the flags of the world.",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "browserify -t [ babelify --presets [ react ] ] js/main.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/battological/flag-rater.git"
+  },
+  "keywords": [
+    "flags",
+    "vexillology"
+  ],
+  "author": "Garrick Sherman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/battological/flag-rater/issues"
+  },
+  "homepage": "https://github.com/battological/flag-rater#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.0"
+  }
+}
