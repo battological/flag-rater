@@ -11,7 +11,7 @@ var Results = require('./Results');
 ReactDOM.render((
   <Router history={hashHistory}>
     <Route path='/' component={App} />
-    <Route path='/g/:flag' component={Grader} />
+    <Route path='/g/:flag1/:flag2' component={Grader} />
     <Route path='/r' component={Results} />
   </Router>),
   document.getElementById('render-point')
