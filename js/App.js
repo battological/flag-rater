@@ -6,7 +6,7 @@ var App = React.createClass({
     return (
       <div className='app'>
         <h1>Welcome to Flag Rater!</h1>
-        <Link to='/g'>Let's get started</Link>
+        <Link to='/g/1'>Let's get started</Link>
       </div>
     )
   }
